@@ -1,0 +1,24 @@
+#adding two numbers
+a=int(input('enter a:'))
+b=int(input('enter b:'))
+c=a+b
+print(c)
+
+#subtracting two numbers
+a=int(input('enter a:'))
+b=int(input('enter b:'))
+c=a-b
+print(c)
+
+#multipling two numbers
+a=int(input('enter a:'))
+b=int(input('enter b:'))
+c=a+b
+print(c)
+
+#dividing two numbers
+a=int(input('enter a:'))
+b=int(input('enter b:'))
+c=a+b
+print(c)
+
