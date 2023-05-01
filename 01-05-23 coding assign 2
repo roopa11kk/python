@@ -1,0 +1,24 @@
+student_dict = {}
+
+n = int(input("Enter number of students: "))
+
+for i in range(1, n+1):
+    s_no = input(f"Enter student {i} number: ")
+    s_name = input("Enter student name: ")
+    s_group = input("Enter student group: ")
+    s_college_branch = input("Enter student college branch: ")
+    s_phone = input("Enter student phone number: ")
+    student_dict[s_no] = {
+        "name": s_name,
+        "group": s_group,
+        "college_branch": s_college_branch,
+        "phone": s_phone
+    }
+
+print("Student dictionary:")
+for s_no, s_data in student_dict.items():
+    print(f"Student number {s_no}:")
+    print("Name:", s_data["name"])
+    print("Group:", s_data["group"])
+    print("College branch:", s_data["college_branch"])
+    print("Phone number:", s_data["phone"])
